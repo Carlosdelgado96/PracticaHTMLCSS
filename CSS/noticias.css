@@ -1,0 +1,593 @@
+@font-face {
+    font-family: GayoLand;
+    src: url(../fonts/Gayo\ Land.ttf);
+}
+@font-face {
+    font-family: ProtestStrike-Regular;
+    src: url(../fonts/ProtestStrike-Regular.ttf);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    overflow-x: hidden;
+    
+}
+
+.header {
+    
+    position: relative;
+    left: 35%;
+    
+}
+.h1header{
+    font-family: Gayoland, system-ui;
+    color: rgb(211, 211, 211);
+    text-shadow: 3cap;
+    position: relative;
+    
+    width: 100%;
+    font-size: 50px;
+    
+   
+}
+
+#pheader {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     color: rgb(243, 243, 243);
+     text-shadow: 3px 4px 2px rgb(230, 167, 255);
+     float: left;
+     position: relative;
+     right: 40px;
+     bottom: 18px;
+     
+ }
+#pheader2 {
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(243, 243, 243);
+    text-shadow: 3px 4px 2px rgb(230, 167, 255);
+   
+}
+header {
+    
+    color: #fff;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+nav:hover {
+    background-color: rgb(55, 132, 204);
+    transform: rotateY(20deg);
+}
+nav, ul{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 6%;
+    padding: 0px;
+    background-color: rgb(55, 132, 204);
+    display: inline-block;
+}
+
+
+li {
+    margin-left: 40px;
+    display: inline;
+
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    
+    color: antiquewhite;
+}
+
+footer {
+    
+    left: 40%;
+    color: #fff;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+.h1footer {
+    font-family: ProtestStrike-Regular;
+    color: rgb(243, 243, 243);
+    text-shadow: 3px 4px 2px rgb(230, 167, 255);
+}
+
+.contenido {
+    margin-top: 200px;
+    margin-bottom: 60px;
+    color: aliceblue;
+    padding: 20px;
+    right: 100px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.divcontenido2 {
+    
+    left: 70%;
+    position: relative;
+    float: left;
+    width: 100%;
+}
+
+img{
+    height: 500px;
+    border-radius: 3px;
+}
+#cartarealmadrid{
+  position: relative; 
+  height: 85%;
+  top: 50px;
+   
+}
+#cartaeslovenia {
+    position: relative; 
+    height: 85%;
+    top: 50px;
+}
+
+#cartaallstar {
+    position: relative; 
+    height: 85%;
+    top: 50px;
+    left: 70px;
+}
+
+.carta {
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px rgb(246, 246, 246);
+    overflow: hidden;
+    
+
+}
+.cartaimgallstar {
+    width: 270px;
+    height: 500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px rgb(246, 246, 246);
+    overflow: hidden;
+}
+.cartaimgeslovenia{
+    width: 270px;
+    height: 500px;
+    margin: 50px;
+    left: 100px;
+    box-shadow: 5px 5px 20px rgb(246, 246, 246);
+    overflow: hidden;
+}
+.intro {
+    height: 70px;
+    width: 350px;
+    padding: 6px;
+    bottom: 180px;
+    box-sizing: border-box;
+    position: absolute;
+    background: rgb(27, 27, 27, .5);
+    color: white;
+}
+.intro, h1 {
+    color: burlywood;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 10px;
+    font-size: 40px;
+    visibility: visible;
+}
+.intro, p {
+    
+    font-size: 20px;
+    margin: 20px;
+    visibility: hidden;
+    opacity: 1;
+}
+
+span {
+    font-weight: bold;
+    color: #3f9cff;
+}
+.cartaimgeslovenia:hover {
+    cursor: pointer;
+}
+.cartaimgeslovenia:hover .intro {
+    height: 220px;
+    bottom: 100px;
+    background: rgb(255, 255, 255);
+}
+.cartaimgeslovenia:hover p {
+    font-family: Gayoland, system-ui;
+    background: black;
+    opacity: 1;
+    visibility: visible;
+}
+.cartaimgeslovenia:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
+.cartaimgallstar:hover {
+    cursor: pointer;
+}
+.cartaimgallstar:hover .intro {
+    height: 220px;
+    bottom: 100px;
+    background: rgb(255, 255, 255);
+}
+.cartaimgallstar:hover p {
+    font-family: Gayoland, system-ui;
+    background: black;
+    opacity: 1;
+    visibility: visible;
+}
+.cartaimgallstar:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
+
+.carta:hover {
+    cursor: pointer;
+}
+
+.carta:hover .intro{
+    height: 220px;
+    bottom: 100px;
+    background: rgb(255, 255, 255);
+}
+.carta:hover h1 {
+    color: rgb(252, 252, 255);
+    
+}
+.carta:hover p {
+    font-family: Gayoland, system-ui;
+    background: black;
+    opacity: 1;
+    visibility: visible;
+}
+.carta:hover img {
+    transform: scale(1.1) rotate(-3deg);
+}
+.divcontenido3{
+    left: 7%;
+    
+    width: 100%;
+    position: relative;
+    top: 30px;
+    display: flex;
+}
+.divcontenido4 {
+    left: 350px;
+    position: relative;
+    float: left;
+    width: 40%;
+    top: 30px;
+}
+.divcontenido5{
+    height: 200px;
+    bottom: 100pxq;
+    width: 100%;
+    right: 200px;
+    float: left;
+    position: relative;
+}
+.anuncio1{
+    width: 200px;
+    height: 50%;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+aside {
+    
+    padding: 20px;
+    box-sizing: border-box;
+    width: 7%;
+    position: fixed;
+    height: 100%;
+    z-index: 3;
+}
+
+.asideizquierdo {
+    left: 0;
+    top: 40px;
+}
+
+.asidederecho {
+    right: 0;
+    top: 60px;
+}
+
+.anuncio1{
+    width: 100%;
+    height: 100px;
+    transition: background-color 1s linear 1s, transform 1s;
+}
+.anuncio2 {
+    width: 100%;
+    height: 100px;
+    transition: background-color 1s linear 1s, transform 1s;
+}
+.anuncio2:hover{
+    background-color: rgb(55, 132, 204);
+    transform: rotateX(150deg);
+}
+#anuncio2 {
+    width: 9%;
+    height: 400px;
+}
+.anuncio1:hover{
+    background-color: rgb(55, 132, 204);
+    transform: rotateY(150deg);
+}
+
+.articulo2 {
+    position: relative;
+    left: 14%;
+    color: #333;
+    width: 100%;
+    border: 2px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    background-color: aliceblue;
+    transition: transform 0.8s;
+    overflow: hidden;
+    
+}
+
+.articulo2 h1 {
+    font-family: ProtestStrike-Regular;
+    color: #3281ff;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.articulo2 p {
+    font-family: ProtestStrike-Regular;
+    color: #812121;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.articulo2 a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.articulo2:hover {
+    color: aqua;
+    transform: scale(1.05); 
+}
+.lukairving {
+    width: 20%;
+    color: #007BFF;
+}
+
+.lukairving h1 {
+    width: 100%;
+}
+.articulo3 {
+    position: relative;
+    bottom: 100px;
+    right: 40%;
+    width: 100%;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    max-width: 800px;
+    max-height: 400px;
+    background-color: #ffffff;
+    transition: transform 0.3s; 
+     
+}
+#h1imagenes{
+    color: #007BFF;
+    position: relative;
+    left: 23%;
+}
+.articulo3 h1 {
+    font-family: 'ProtestStrike-Regular', sans-serif;
+    color: #1a1a1a;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+.articulo3 h3 {
+    font-family: 'ProtestStrike-Regular', sans-serif;
+    font-size: 19px;
+    color: #2020f2;
+}
+.articulo3 img{
+    position: relative;
+    left: 30px;
+    width: 250px;
+    height: 100px;
+}
+.camiseta {
+    width: 23%;
+    
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.camiseta:hover {
+    transform: scale(1.2); 
+}
+.camiseta4 {
+    width: 23%;
+    margin-left: 10px;
+    height: auto;
+    transition: transform 0.3s ease-in-out; 
+}
+
+.camiseta4:hover {
+    transform: scale(1.2); 
+}
+
+.articulo4 {
+    position: relative;
+    left: 14%;
+    width: 100%;
+    
+}
+
+iframe{
+    width: 100%; 
+    height: 315px; 
+    border: 0;
+    
+}
+
+.articulonoticias1 {
+    width: 40%;
+    
+    background-image: url(/IMG/logoreflejo.jpg);
+    padding: 20px;
+    bottom: 180px;
+    float: left;
+    position: relative;
+    left: 25%;
+}
+.articulonoticias1 h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #0015cd;
+    color: #ffffff;
+    text-shadow: 3cap;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.articulonoticias1 p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#jasonkidd {
+    position: relative;
+    left: 50px;
+}
+.articulonoticias1 img {
+   width: 20%;
+   height: 20%;
+   position: relative;
+   bottom: 150px;
+   left: 400px;
+   animation: mover;
+   animation-duration: 2s;
+   animation-iteration-count: 4;
+   animation-timing-function: linear;
+   animation-direction: reverse;
+   animation-fill-mode: forwards;
+}
+
+.articulonoticias1 img:hover {
+   animation-play-state: paused;
+   opacity: .7;
+   filter: contrast(200%);
+   cursor:  url('/IMG/dallasmavericks.png');
+ }
+ 
+@keyframes mover {
+    from {
+        transform: translateY(160px);
+    }
+    to {
+        
+        transform: translateY(60px);
+    }
+}
+.articulonoticias2 {
+    position: relative;
+    bottom: 160px;
+    color: #007BFF;
+    left: 35%;
+    float: left;
+    width: 40%;
+    background-color: #f9f9f9;
+    padding: 20px;
+    
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+.articulonoticias2, h1{
+    color: #2020f2;
+    
+}
+
+.articulo7 {
+    position: relative;
+    top: 200px;
+    left: 500px;
+    width: 40%;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    
+    background-color: #ffffff;
+    transition: transform 0.3s; 
+    overflow: hidden; 
+}
+
+.articulo7 h1 {
+    font-family: 'ProtestStrike-Regular', sans-serif;
+    color: #1a1a1a;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+.articulo8 {
+    position: relative;
+    top: 200px;
+    left: 500px;
+    width: 40%;
+    border: 2px solid #ddd;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    
+    background-color: #ffffff;
+    transition: transform 0.3s; 
+    overflow: hidden; 
+    
+}
+
+.articulo8 h1 {
+    font-family: 'ProtestStrike-Regular', sans-serif;
+    color: #1a1a1a;
+    font-size: 28px;
+    margin-bottom: 12px;
+}
+
+#boton {
+    position: absolute;
+    bottom: 80px;
+    left: 150px;
+    display: inline-block;
+    padding: 30px 40px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+  }
+  
+  #boton:hover {
+    background-color: #2980b9;
+  }
+
+ 
